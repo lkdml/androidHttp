@@ -126,6 +126,7 @@ public class HttpManager extends Thread{
             //conn.setRequestProperty("AUTHORIZATION","08f88e9f7bd717eeab1d17db7a1620d0");
             conn.setRequestProperty("Content-Type","application/x-www-form-urlencoded");
 
+
             conn.setDoInput(true);
 
             os = new OutputStreamWriter(conn.getOutputStream());

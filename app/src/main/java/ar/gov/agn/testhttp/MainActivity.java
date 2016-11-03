@@ -19,10 +19,11 @@ public class MainActivity extends AppCompatActivity implements Handler.Callback 
         this.u = new Usuario();
 
        // String apiUrl = "http://fake-api-android-lkdml.c9users.io/categorias?id=1";
-        String apiUrl2 = "https://fake-api-android-lkdml.c9users.io/login";
+        //String apiUrl2 = "https://fake-api-android-lkdml.c9users.io/login";
         String parametros2 = "email=lazaro2002@hotmail.com&password=123";
 
-        
+        String apiUrl2 = "https://fake-api-android-lkdml.c9users.io/categorias?id=2";
+
 
 
 
